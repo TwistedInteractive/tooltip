@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<extension id="your_extension_path" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+<extension id="tooltip" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Tooltip</name>
 	<description>Add a little tooltip to each field. Great for documentation!</description>
 	<repo type="github">https://github.com/kanduvisla/tooltip</repo>
