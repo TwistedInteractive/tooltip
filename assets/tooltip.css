@@ -60,6 +60,7 @@ div.tooltip img.loader {
 
 div.tooltip a.close {
 	float: right;
+	margin-right: 0;
 }
 
 div.tooltip div.content, div.tooltip textarea {

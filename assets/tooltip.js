@@ -16,11 +16,11 @@ jQuery(function($){
 			if(tooltip_user_type == 'developer' || content != '')
 			{
 				// The edit button (only for developers):
-				var editBtn = tooltip_user_type == 'developer' ? '<a href="#" class="button edit">Edit</button><a href="#" class="button save">Save</button><a href="#" class="button cancel">Cancel</button>' : '';
+				var editBtn = tooltip_user_type == 'developer' ? '<a href="#" class="button edit">Edit</a><a href="#" class="button save">Save</a><a href="#" class="button cancel">Cancel</a>' : '';
 
 				// Add it all:
 				$(this).prepend('<a href="#" class="tooltip">?</a><div class="tooltip"><div class="content">' + content + '</div><img src="' +
-					tooltip_url + '/extensions/tooltip/assets/ajax-loader.gif" class="loader" />'+editBtn+'<a href="#" class="button close">Close</button><span class="arrow"></span></div>');
+					tooltip_url + '/extensions/tooltip/assets/ajax-loader.gif" class="loader" />'+editBtn+'<a href="#" class="button close">Close</a><span class="arrow"></span></div>');
 
 				// Bind functionality:
 				$('a.tooltip', this).click(function(e){
@@ -38,7 +38,7 @@ jQuery(function($){
 					// content = $('div.content', $(this).parent()).text();
 					$('div.content', $(this).parent()).replaceWith('<textarea>' + content + '</textarea>');
 					$(this).hide();
-					$('a.save, a.cancel', $(this).parent()).show();
+					$('a.save, a.cancel', $(this).parent()).show().css({display: "inline-block"});
 				});
 				$('div.tooltip a.cancel', this).click(function(e){
 					e.preventDefault();
