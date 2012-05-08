@@ -10,8 +10,8 @@ Class extension_tooltip extends Extension
 	{
 		return array(
 			'name' => 'Tooltip',
-			'version' => '1.0',
-			'release-date' => '2012-05-02',
+			'version' => '1.1',
+			'release-date' => '2012-05-08',
 			'author' => array(
 				'name' => 'Giel Berkers',
 				'website' => 'http://www.gielberkers.com',

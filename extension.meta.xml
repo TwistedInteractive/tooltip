@@ -14,7 +14,8 @@
 		</author>
 	</authors>
 	<releases>
-		<release version="1.0" date="2012-05-02"/>
+		<release version="1.0" date="2012-05-02" min="2.2.x" max="2.2.5" />
+		<release version="1.1" date="2012-05-08" min="2.3" />
 	</releases>
 	<media>
 		<item type="image" url="http://i.imgur.com/oYpLa.png">Tooltips</item>

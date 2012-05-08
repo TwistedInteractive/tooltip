@@ -5,8 +5,8 @@
 	class ContentExtensionTooltipIndex extends AdministrationPage {
 		protected $_driver = null;
 		
-		public function __construct(&$parent){
-			parent::__construct($parent);
+		public function __construct(){
+			parent::__construct();
 		}
 		
 		public function __viewIndex() {
