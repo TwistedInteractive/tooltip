@@ -2,16 +2,12 @@
 <extension id="tooltip" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Tooltip</name>
 	<description>Add a little tooltip to each field. Great for documentation!</description>
-	<repo type="github">https://github.com/kanduvisla/tooltip</repo>
+	<repo type="github">https://github.com/TwistedInteractive/tooltip</repo>
 	<types>
 		<type>Interface</type>
 	</types>
 	<authors>
-		<author>
-			<name github="kanduvisla" twitter="kanduvisla" symphony="kanduvisla">Giel Berkers</name>
-			<email>info@gielberkers.com</email>
-			<website>http://www.gielberkers.com</website>
-		</author>
+		
 	</authors>
 	<releases>
 		<release version="1.0" date="2012-05-02" min="2.2.x" max="2.2.5" />
