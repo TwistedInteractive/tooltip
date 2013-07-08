@@ -7,7 +7,10 @@
 		<type>Interface</type>
 	</types>
 	<authors>
-		
+		<author>
+			<name github="TwistedInteractive">Twisted Interactive</name>
+			<website>http://www.twisted.nl</website>
+		</author>
 	</authors>
 	<releases>
 		<release version="1.0" date="2012-05-02" min="2.2.x" max="2.2.5" />
